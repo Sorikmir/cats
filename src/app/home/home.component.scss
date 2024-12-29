@@ -1,0 +1,12 @@
+.background-block {
+    
+    background-size: cover; /* Покрывает весь блок */
+    background-position: center; /* Центрирует изображение */
+    height: 400px; /* Высота блока */
+    display: flex; /* Включает Flexbox для центрирования содержимого */
+    flex-direction: column; /* Вертикальное выравнивание */
+    justify-content: center; /* Вертикальное центрирование содержимого */
+    align-items: center; /* Горизонтальное центрирование содержимого */
+    color: white; /* Цвет текста */
+    text-shadow: 1px 1px 2px black; /* Тень для текста для лучшей читаемости */
+}

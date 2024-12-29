@@ -1,7 +1,10 @@
 <div class="container">
-  <div class="row">
-    <div *ngFor="let cat of cats" class="col-3 mt-3">
-      <app-cat-card [cat]="cat"></app-cat-card>
-    </div>
-  </div>
+  <p class="main-title">Buy the cat for New Year!</p>
+  <nav>
+    <a mat-button routerLink="/homepage" >Home</a>
+    <a mat-button routerLink="/cats-list" >Cats list</a>
+    <a mat-button routerLink="/contacts" >Contacts</a>
+  </nav>
+  
 </div>
+<router-outlet></router-outlet>
